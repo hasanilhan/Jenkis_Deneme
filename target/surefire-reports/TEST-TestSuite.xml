@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="7" name="TestSuite" time="69.171" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.boot.library.path" value="C:\Users\ilhan\.jdks\openjdk-16.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IdeaProjects\JDBC_GmiBank"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IdeaProjects\JDBC_GmiBank"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ilhan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\ilhan\.jdks\openjdk-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ilhan\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\bin;;C:\Users\ilhan\AppData\Roaming\npm;C:\Users\ilhan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ilhan"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="ilhan"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2 test"/>
+    <property name="java.home" value="C:\Users\ilhan\.jdks\openjdk-16.0.2"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="gmibank.com.tests.US05_Test" name="TC0501" time="2.705"/>
+  <testcase classname="gmibank.com.tests.US05_Test" name="TC0502" time="1.418">
+    <failure message="expected [4] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [4] but found [1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US05_Test.TC0502(US05_Test.java:41)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+1
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US05_Test" name="TC0503" time="1.366">
+    <failure message="expected [Mehm] but found [Cord]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Mehm] but found [Cord]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US05_Test.TC0503(US05_Test.java:57)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+Cord
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US_01_Test" name="ustc04" time="0"/>
+  <testcase classname="gmibank.com.tests.US_02_Test" name="test" time="1.972">
+    <failure message="Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at gmibank.com.tests.US_02_Test.test(US_02_Test.java:22)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US_02_Test" name="test01" time="2.022"/>
+  <testcase classname="gmibank.com.tests.US_03_Test" name="TC0303" time="4.57"/>
+  <testcase classname="gmibank.com.tests.US_04_Test" name="tc0401" time="6.269"/>
+  <testcase classname="gmibank.com.tests.US_04_Test" name="tc0402" time="5.06"/>
+  <testcase classname="gmibank.com.tests.US_06_Test" name="TC_0601" time="1.965">
+    <failure message="expected [7] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [7] but found [1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_06_Test.TC_0601(US_06_Test.java:25)
+</failure>
+    <system-out>Database Connection kapatiliyor...
+Database Connection kapatiliyor...
+Database Connection kapatiliyor...
+Connection closed successfully
+EN: Connected to the database...
+TR: Database e baglanildi...
+[{state_count=1}]
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US_06_Test" name="TC_0602" time="1.509">
+    <failure message="expected [888] but found [2]" type="java.lang.AssertionError">java.lang.AssertionError: expected [888] but found [2]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_06_Test.TC_0602(US_06_Test.java:42)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+[{names=2, name=remoteAddress}]
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US_06_Test" name="TC_0603" time="1.623">
+    <failure message="expected [4] but found [50]" type="java.lang.AssertionError">java.lang.AssertionError: expected [4] but found [50]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at gmibank.com.tests.US_06_Test.TC_0603(US_06_Test.java:62)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+[{name=Russelsheim, count=11}, {name=Nevada, count=35}, {name=texas, count=40}, {name=NY, count=12}, {name=Denizli, count=11}, {name=Farmington, count=12}, {name=StateVA, count=16}, {name=OHIO, count=29}, {name=Province_0017, count=21}, {name=Indiana, count=27}, {name=ohio, count=15}, {name=Stockholm, count=11}, {name=Bayburt, count=36}, {name=Regards_b, count=23}, {name=Edinburg, count=35}, {name=Auvergne, count=13}, {name=GMIBank, count=21}, {name=Hawaii, count=13}, {name=Berlin, count=20}, {name=Dallas, count=19}, {name=Dikmen, count=25}, {name=Best_b, count=23}, {name=North Dakota, count=34}, {name=Dun, count=26}, {name=Aksam, count=11}, {name=VOD, count=16}, {name=Russia, count=22}, {name=Province_0015, count=22}, {name=From_b, count=23}, {name=Amsterdam, count=35}, {name=Virginia, count=22}, {name=ESRA, count=11}, {name=DunyaHali, count=61}, {name=NorthSouthCarolina, count=16}, {name=ooooooo, count=22}, {name=Trabzon, count=18}, {name=Idaho, count=35}, {name=Eskisehir, count=11}, {name=Team61_b, count=23}, {name=California, count=16}, {name=Province_0016, count=24}, {name=Paris, count=11}, {name=FL, count=14}, {name=StateNY, count=16}, {name=NJ, count=15}, {name=Manisa, count=12}, {name=Africa, count=22}, {name=Honduras, count=34}, {name=New York1, count=12}, {name=Texas, count=14}]
+50
+</system-out>
+  </testcase>
+  <testcase classname="gmibank.com.tests.US_07_Test" name="TC_0701" time="19.293"/>
+  <testcase classname="gmibank.com.tests.US_07_Test" name="TC_0702" time="7.706"/>
+  <testcase classname="gmibank.com.tests.US_07_Test" name="TC_0703" time="3.216"/>
+  <testcase classname="gmibank.com.tests.US_10_Test" name="tc1001" time="4.805"/>
+  <testcase classname="gmibank.com.tests.US_10_Test" name="tc1002" time="1.48"/>
+  <testcase classname="gmibank.com.tests.US_10_Test" name="tc1003" time="2.192">
+    <failure message="expected [7060] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [7060] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_10_Test.tc1003(US_10_Test.java:65)
+</failure>
+    <system-out>EN: Connected to the database...
+TR: Database e baglanildi...
+null
+</system-out>
+  </testcase>
+</testsuite>

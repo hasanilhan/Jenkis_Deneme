@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 72.388 sec <<< FAILURE!
+TC0502(gmibank.com.tests.US05_Test)  Time elapsed: 1.418 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [4] but found [1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US05_Test.TC0502(US05_Test.java:41)
+
+TC0503(gmibank.com.tests.US05_Test)  Time elapsed: 1.366 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [Mehm] but found [Cord]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US05_Test.TC0503(US05_Test.java:57)
+
+test(gmibank.com.tests.US_02_Test)  Time elapsed: 1.972 sec  <<< FAİLURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at gmibank.com.tests.US_02_Test.test(US_02_Test.java:22)
+
+TC_0601(gmibank.com.tests.US_06_Test)  Time elapsed: 1.965 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [7] but found [1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_06_Test.TC_0601(US_06_Test.java:25)
+
+TC_0602(gmibank.com.tests.US_06_Test)  Time elapsed: 1.509 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [888] but found [2]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_06_Test.TC_0602(US_06_Test.java:42)
+
+TC_0603(gmibank.com.tests.US_06_Test)  Time elapsed: 1.623 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [4] but found [50]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at gmibank.com.tests.US_06_Test.TC_0603(US_06_Test.java:62)
+
+tc1003(gmibank.com.tests.US_10_Test)  Time elapsed: 2.192 sec  <<< FAİLURE!
+java.lang.AssertionError: expected [7060] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at gmibank.com.tests.US_10_Test.tc1003(US_10_Test.java:65)
+

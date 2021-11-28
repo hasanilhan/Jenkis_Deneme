@@ -14,7 +14,7 @@ public class DatabaseConnector {
     private static final String connectionUrl = ConfigurationReader.getProperty("db_url");
 
     private static Connection connection;
-    private static Statement statement;
+    private static Statement statement;// Ui
     private static ResultSet resultSet;
     private static ResultSetMetaData rsmd;
 
@@ -98,7 +98,7 @@ public class DatabaseConnector {
 //        return states;
 //    }
     //-----------------------------------------------------------------------------------
-    public static List<Map<String,String>> getEmployeesAsListOfMap() throws SQLException {
+    public static List<Map<String,String>> getEmployeesAsListOfMap(String tc_02_01) throws SQLException {
         String query="SELECT * FROM public.tp_employee; ";
         return getQueryAsAListOfMaps(query);
     }

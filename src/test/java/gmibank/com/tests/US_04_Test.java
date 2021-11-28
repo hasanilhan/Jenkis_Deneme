@@ -56,15 +56,9 @@ public class US_04_Test {
         Assert.assertEquals(myDataList.get(0).get("id"),"201");
         Assert.assertEquals(myDataList.get(0).get("login"),"DB");
         }
-        @Test
-    public void tc0403() throws SQLException {
-        DatabaseConnector2.executeInsertQuery(insertQueryTc0403);
-        resultSet = DatabaseConnector2.getResultSet(queryTC0403);
-        while (resultSet.next()){
-            Assert.assertEquals(resultSet.getString("id"),"11");
-            Assert.assertEquals(resultSet.getString(2),"japonya");
-        }
-        }
+
+
+
 
     }
 
